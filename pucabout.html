@@ -1,0 +1,75 @@
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+body{
+margin:10;
+}
+#links{
+display:none;
+}
+.box {
+background-color:grey;
+height:30px;
+width:100%;
+
+border-bottom:1px solid black;
+text-align:center;
+}
+.logo{
+background-color:#56bead;
+height:50px;
+width:100%;
+font-size:40px;
+text-align:center;
+color:red;
+
+}
+.box a{
+text-decoration:none;
+font-size:20px;
+color:white;
+}
+.nav{
+float:right;
+font-size:40px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="nav"  onclick="myfun()"><i class="fas fa-bars"></i></div><center><div class="logo">PUC PDFs</div></center>
+<div id="links">
+<ul type="none">
+ <div class="box"><a href="puchome.html">Home</a></li></div>
+ <div class="box"><li><a href="#">About</a></li></div>
+ <div class="box"><li><a href="puccontact.html">Contact</a></li></div>
+ <div class="box"><li><a href="pucsocial.html">Social media</a></li></div>
+ 
+</ul>
+</div>
+</div>
+<div class="main">
+<center><h1>About us</h1></center>
+<h2>
+In this web app you can access puc1 sem1 all subject content in the form of pdfs.<br><br>
+We didn't added sem 2 and puc 2 content, we hope we will add soon.<br><br>
+If any p1 Or further class students are reading this and willing to provide content which was not there here can see contact page to get in touch with us.
+</h2>
+</div>
+<script type="text/javascript">
+function myfun() {
+var x = document.getElementById('links')
+if(x.style.display == "none"){
+x.style.display = "block"
+}
+else{
+x.style.display = "none"
+}
+}
+
+</script>
+</body>
+</html>
